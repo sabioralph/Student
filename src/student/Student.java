@@ -31,7 +31,7 @@ public class Student {
         for(int i = word.length-1; i>=0 ; i--){
             //reverse word 
             System.out.print(word[i]+" ");
-     
+     //new commit
      * }**/
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a word plss");
