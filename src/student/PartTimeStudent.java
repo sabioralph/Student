@@ -8,11 +8,11 @@ package student;
  *
  * @author ralph
  */
-public class PartTimeStudent extends Student {
+public class PartTimeStudent extends Students {
     private int numCourses;
     
-    public PartTimeStudent(String studentId,String studentName,int numCourses){
-        super(studentId,studentName);
+    public PartTimeStudent(String studentID,String studentName,int numCourses){
+        super(studentID,studentName);
         this.numCourses=numCourses;
         }
     public int getNumCourses() {
